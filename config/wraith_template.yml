@@ -1,0 +1,19 @@
+---
+browser: "phantomjs"
+
+directory: "shots"
+
+domains:
+  production: https://www.gov.uk
+  staging: https://www-origin.staging.publishing.service.gov.uk
+
+screen_widths:
+  - 1024
+
+fuzz: 20%
+
+mode: diffs_only
+
+threshold: 5
+
+# phantomjs_options: "--ssl-protocol=tlsv1 --ignore-ssl-errors=true"
