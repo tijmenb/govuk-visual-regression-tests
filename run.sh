@@ -4,4 +4,4 @@ bundle install --path "${HOME}/bundles/${JOB_NAME}" --deployment
 
 bundle exec rake generate_config
 
-wraith capture generated-wraith-config.yml
+bundle exec wraith capture generated-wraith-config.yml
