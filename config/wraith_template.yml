@@ -12,8 +12,8 @@ screen_widths:
 
 fuzz: 20%
 
-mode: diffs_only
+mode: diffs_first
 
 threshold: 5
 
-# phantomjs_options: "--ssl-protocol=tlsv1 --ignore-ssl-errors=true"
+verbose: true
