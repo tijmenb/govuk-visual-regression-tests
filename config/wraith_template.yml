@@ -16,4 +16,4 @@ mode: diffs_first
 
 threshold: 5
 
-verbose: true
+phantomjs_options: '--ignore-ssl-errors=true --ssl-protocol=tlsv1'
